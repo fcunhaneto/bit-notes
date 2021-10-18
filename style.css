@@ -1,0 +1,117 @@
+/*
+Theme Name: BitNotes
+Theme URL: http://fcunhaneto.com.br/themes
+Description: GeneratePress Child Theme
+Author: Francisco Cunha Neto
+Author URL: http://fcunhaneto.com.br
+Template: generatepress
+Description: A minimal child theme based on the GeneratePress using black and red colors.
+Version: 1.0.0
+Tested up to: 5.8
+Requires PHP: 7.3
+Text Domain: bit-botes
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, footer-widgets, blog, flexible-header, full-width-template, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, rtl-language-support, featured-images, theme-options
+
+*/
+
+/**
+ * Generics
+ ********************************************************************************/
+body {
+    line-height: 1.8;
+}
+
+/**
+ * Elements
+ ********************************************************************************/
+a {
+    color: #aa1409;
+}
+
+a:hover, a:focus, a:active {
+    color: #1f89e5;
+}
+
+/**
+ * Components
+ ********************************************************************************/
+/*========= Header */
+#masthead {
+    background-color: #000;
+}
+
+.inside-header {
+    padding: 10px 40px;
+}
+
+.main-title a {
+    color: #fff;
+}
+.main-title a:hover {
+    color: #da190b;
+}
+
+/*========= Navbar */
+.main-navigation .main-nav > ul {
+    background-color: #000;
+}
+
+.main-navigation .main-nav ul li a {
+    color: #fff;
+}
+
+.main-navigation .main-nav ul li:hover > a,
+.main-navigation .main-nav ul li:focus > a,
+.main-navigation .main-nav ul li.sfHover > a,
+.main-navigation .menu-bar-item:hover > a,
+.main-navigation .menu-bar-item.sfHover > a,
+.main-navigation .main-nav ul li[class*=current-menu-] > a,
+.main-navigation .main-nav ul li[class*=current-menu-] > a:hover,
+.main-navigation .main-nav ul li[class*=current-menu-] > a:focus,
+.main-navigation .main-nav ul li[class*=current-menu-] > a:active {
+    color: #fff;
+    background-color: #da190b;
+}
+
+/*========= Sticky Post */
+.sticky {
+    border: 2px solid #da190b;
+    -webkit-box-shadow: 5px 5px 5px 5px #da190b;
+    box-shadow: 5px 5px 5px 5px #da190b;
+}
+
+/*======== Article */
+.separate-containers .inside-article {
+    padding: 20px;
+}
+
+/*=========  Comments */
+.comment-content {
+    padding: 0 2rem;
+}
+
+.comment-content > p {
+    margin-bottom: 0.5em;
+}
+
+/*======== Footer */
+#footer-widgets {
+    background-color: #000;
+}
+
+.site-info {
+    background-color: #000;
+    color: #fff;
+}
+
+.site-info a {
+    color: #fff;
+}
+
+a.generate-back-to-top  {
+    bottom: 15px;
+    background-color: #fff;
+    color: #000;
+}
